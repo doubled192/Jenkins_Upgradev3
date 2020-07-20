@@ -19,7 +19,7 @@ pipeline {
             }
             stage('Test') {
                   steps {
-                        echo "Deploy to checking stage"
+                        echo "Deploy to Testing stage"
                   }
             }      
             stage('Deploy Production') {
